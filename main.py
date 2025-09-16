@@ -29,7 +29,8 @@ async def cmd_hello(message: Message):
     :return: Message
     """
     await message.answer(
-        f"<b>{message.from_user.last_name}.\nБот отвечает на вопросы о 37 церемонии Оскар.</b>",
+        f"<b>{message.from_user.last_name}.\nБот отвечает на вопросы о 37 церемонии Оскар.\nВ базе знаний cjlth;bn 10 "
+        f"cnfntq о церимонии.\nЗадать вопрос можно в свободной форме.\nНапример: 'Что такое оскар'</b>",
         parse_mode=ParseMode.HTML,
     )
 
